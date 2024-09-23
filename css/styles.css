@@ -1,14 +1,63 @@
 p{
-    color:blue;
+    color:rgb(173, 135, 135);
+    padding: 30px;
+
+}
+
+p1 {
+    color:red;
     font-family:'Times New Roman', Times, serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     font-style: italic;
     text-align:center;
     text-decoration:solid;
     line-height:2;
     letter-spacing: 2px;
-    text-transform:capitalize
+    text-transform:capitalize;
 
+    background: blue;
+}
+
+
+Body{
+    font-family: arial, helvetica;
+    background-image: url(../imag/cielo.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
 }
+.menu{
+    list-style: none;
+    padding: 20px ;
+    background: rgb(104, 10, 10);
+    width: 90%;
+    margin:auto;
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: #ef8354;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
