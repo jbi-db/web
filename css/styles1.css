@@ -10,21 +10,36 @@ div#principal{
     height: 60px;
 }
 
-div#ini{
-    width: 25%;
-    height: 100%;
-
-    background:rgb(129, 32, 32)
-}
-div#nos{
-    float:right;
-    width: 25%;
-    height: 100%;
-    
-    background:rgb(21, 69, 109)
-}
 h1{
     
     height: 100px;
     font-style: italic;
+}
+.newic{
+    margin: 1em 0;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.icons ul li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+.icons ul li a{
+    color:rgb(136, 202, 48);
+    border: 1px solid #FFF;
+    width: 60px;
+    height: 60px;
+    line-height: 32px;
+    border-radius:20px;
+    display: inline-block;
+
+}
+.icons ul li a img{
+    width: 70%;
+    height: 70%;
+    margin: 2px;
+    padding: 10%;
+    border: 5px;
+    transition: 0.5s all;
 }

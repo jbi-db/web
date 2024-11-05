@@ -1,6 +1,50 @@
+
+header {
+    position: relative;
+    width: 90%;
+    height:30px;
+    
+
+}
+
+Body{
+    font-family: arial, helvetica;
+    background-image: url(../imag/cielo.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.menu{
+    padding: 20px ;
+    background: rgb(104, 10, 10);
+    width: 90%;
+    margin:auto;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 130%;
+    transition: all 0.5s;
+
+}
+.menu li a:hover{
+    background: #ef8354;
+    border-radius: 15px;
+    
+}
+
+
+
 p{
     color:rgb(173, 135, 135);
     padding: 30px;
+    font-size: 20px;
 
 }
 
@@ -18,37 +62,6 @@ p1 {
 
     background: blue;
 }
-
-
-Body{
-    font-family: arial, helvetica;
-    background-image: url(../imag/cielo.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-
-}
-.menu{
-    list-style: none;
-    padding: 20px ;
-    background: rgb(104, 10, 10);
-    width: 90%;
-    margin:auto;
-}
-.menu li a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    padding: 20px;
-}
-.menu li{
-    display: inline-block;
-    text-align: center;
-}
-.menu li a:hover{
-    background: #ef8354;
-}
-
-
 
 
 
